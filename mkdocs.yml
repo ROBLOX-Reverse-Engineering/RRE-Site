@@ -1,0 +1,29 @@
+site_name: ROBLOX Reverse-Engineering
+theme:
+  name: material
+  logo: assets/iTunesArtwork@2xNoBG.png
+  favicon: assets/iTunesArtwork@2xNoBG.png
+  palette: 
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+nav:
+    - Home: 'index.md'
+    - What is Reversing?: 'AboutReversing.md'
+    - Common Issues:
+      - Issue 1: Common Issues/test.md
+      - Issue 2: Common Issues/test2.md
+    - Extras:
+      - Generating a public/private key: 'Extras/KeyGeneration.md'
+extra:
+  generator: false
+copyright: We're not affiliated, associated, authorized, or endorsed by ROBLOX Corporation in any way, shape, or form.
