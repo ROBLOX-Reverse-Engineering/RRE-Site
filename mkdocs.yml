@@ -6,13 +6,13 @@ theme:
   palette: 
     - scheme: slate
       primary: teal
-      accent: indigo
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
     - scheme: default
       primary: teal
-      accent: indigo
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
@@ -26,4 +26,6 @@ nav:
       - Generating a public/private key: 'Extras/KeyGeneration.md'
 extra:
   generator: false
+extra_css:
+  - assets/CustomText.css
 copyright: We're not affiliated, associated, authorized, or endorsed by ROBLOX Corporation in any way, shape, or form.
