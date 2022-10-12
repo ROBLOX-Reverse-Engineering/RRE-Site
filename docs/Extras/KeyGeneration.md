@@ -16,4 +16,8 @@ Private Key:
 
 # Method 2
 
-blahblahblah explain to the user about using a key generation application (todo)
+A user by the name of coke<sub><sup>[Citation needed]</sup></sub> made an application which generates RSA pairs for the client, the download can be found [here](/hidden/Download#906c8ec652e43b043603b97fc0e31a626448e65bdf4819c7a8c4bc18a768d8a8).
+
+
+### See Also:
+- [What are signatures?](/Client Security/Signatures)
