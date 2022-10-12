@@ -28,4 +28,9 @@ extra:
   generator: false
 extra_css:
   - assets/CustomText.css
+plugins:
+  - search
+  - exclude-search:
+      exclude: 
+        - hidden/*
 copyright: We're not affiliated, associated, authorized, or endorsed by ROBLOX Corporation in any way, shape, or form.
