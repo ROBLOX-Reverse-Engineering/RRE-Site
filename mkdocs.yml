@@ -35,4 +35,6 @@ plugins:
   - exclude-search:
       exclude: 
         - hidden/*
+markdown_extensions:
+  - footnotes
 copyright: We're not affiliated, associated, authorized, or endorsed by ROBLOX Corporation in any way, shape, or form.
