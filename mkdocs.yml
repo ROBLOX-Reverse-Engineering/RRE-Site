@@ -1,8 +1,13 @@
 site_name: ROBLOX Reverse-Engineering
+repo_name: ROBLOX Reverse-Engineering/RRE-Site
+repo_url: https://github.com/ROBLOX-Reverse-Engineering/RRE-Site
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: assets/iTunesArtwork@2xNoBG.png
   favicon: assets/iTunesArtwork@2xNoBG.png
+  icon:
+    edit: material/file-edit-outline
   palette: 
     - scheme: slate
       primary: teal
@@ -33,7 +38,7 @@ nav:
 extra:
   generator: false
 extra_css:
-  - assets/CustomText.css
+  - assets/Extra.css
 plugins:
   - search
   - exclude-search:
