@@ -28,6 +28,7 @@ ROBLOX uses the [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorith
 
 Signature wrappers have differed between the years but here are the primary forms:
 
+- `%DATA%` (2010-2013)
 - `--rbxsig%DATA%` (2013-2020)
 - `--rbxsig2%DATA%` (Since 2018)
 - `--rbxsig4%DATA%` (Since 2020)
