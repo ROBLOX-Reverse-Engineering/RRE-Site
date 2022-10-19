@@ -33,8 +33,8 @@ nav:
       - Issue 2: 'Common Issues/test2.md'
     - Extras:
       - Generating a public/private key: 'Extras/KeyGeneration.md'
-      - Honerable Users:
-        - Brent: "Honerable Users/Brent.md"
+      - Honorable Users:
+        - Brent: "Honorable Users/Brent.md"
 extra:
   generator: false
 extra_css:

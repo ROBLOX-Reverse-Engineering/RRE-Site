@@ -1,5 +1,5 @@
 # What is this?
-This is the offical repository for the **Upcoming** ROBLOX Reverse-Engineering site.
+This is the official repository for the **Upcoming** ROBLOX Reverse-Engineering site.
 
 # How do I build this?
 This project uses material mkdocs (which runs over of python).
