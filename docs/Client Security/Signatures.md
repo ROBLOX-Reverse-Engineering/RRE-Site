@@ -1,20 +1,43 @@
+# What are signatures?
+
 ## Introduction
 
-Signatures are another method of security ROBLOX uses to prevent any unauthorized tampering with external requests to Roblox Servers.
+Signatures are another means of security ROBLOX uses to prevent any unauthorized tampering with external requests from ROBLOX Servers.
 
-Traditionally, Signatures are as the name implies, a method of determination to insure all information is indeed coming from the authorized sender.
+Traditionally, signatures are, as the name suggests, a method to determine the actual author/sender of an article.
 
-In today's world, digitial signatures are analogous — They utilize mathematical algorithms to validate the authenticity of such data.[^1]
+In today's world, digitial signatures are analogous (to traditional signatures) — They utilize mathematical algorithms to validate the authenticity of such data.[^1]
+
+This abstract graph demonstrates the signing process:[^2]
+```mermaid
+flowchart LR
+    id1[(Data)]-->id2[Sign]---id3>Private Key]
+    id2-->id7[(Signed Data)]-->id5
+    id6>Public Key]---id5[Verify]-->id4[(Data)]
+```
 
 ## Client Signatures
 
 ROBLOX uses (and *used*) signatures for a multitude of things including but not limited to:
     
-- JoinScripts<sub><sup>[Citation needed]</sup></sub>
-- Online CoreScripts (2010-2015)
+- [JoinScripts](/Client Security/JoinScripts)
+- Online CoreScripts (2010-2015)<sub><sup>[Citation needed]</sup></sub>
+
+### Specification
+ROBLOX uses the [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorithm (1024-bits) with X509 and PKCS7 encoding.
+
+Signature wrappers have differed between the years but here are the primary forms:
+
+- `--rbxsig%DATA%` (2013-2020)
+- `--rbxsig2%DATA%` (Since 2018)
+- `--rbxsig4%DATA%` (Since 2020)
+
+(**DATA** refers to the actual signature)
 
 
 <h3 id="see-also">See Also:</h3>
 - [Generating a public/private key](/Extras/KeyGeneration)
+- [JoinScripts](/Client Security/JoinScripts)
 
 [^1]: More Information: [https://www.cisa.gov/uscert/ncas/tips/ST04-018](https://www.cisa.gov/uscert/ncas/tips/ST04-018)
+[^2]: The server is the signer, the client is the verifier
