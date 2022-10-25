@@ -6,9 +6,9 @@ Signatures are another means of security ROBLOX uses to prevent any unauthorized
 
 Traditionally, signatures are, as the name suggests, a method to determine the actual author/sender of an article.
 
-In today's world, digitial signatures are analogous (to traditional signatures) — They utilize mathematical algorithms to validate the authenticity of such data.[^1]
+In today's world, digital signatures are analogous (to traditional signatures) — They utilize mathematical algorithms to validate the authenticity of data.[^1]
 
-This abstract graph demonstrates the signing process:[^2]
+This graph demonstrates the signing process conceptionally:[^2]
 ```mermaid
 flowchart LR
     id1[(Data)]-->id2[Sign]---id3>Private Key]
@@ -41,4 +41,4 @@ Signature wrappers have differed between the years but here are the primary form
 - [JoinScripts](/Client Security/JoinScripts)
 
 [^1]: More Information: [https://www.cisa.gov/uscert/ncas/tips/ST04-018](https://www.cisa.gov/uscert/ncas/tips/ST04-018)
-[^2]: The server is the signer, the client is the verifier
+[^2]: Signed Data goes from server to client; Client verifies.
