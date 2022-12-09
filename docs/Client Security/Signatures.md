@@ -41,4 +41,4 @@ Signature wrappers have differed between the years but here are the primary form
 - [JoinScripts](/Client Security/JoinScripts)
 
 [^1]: More Information: [https://www.cisa.gov/uscert/ncas/tips/ST04-018](https://www.cisa.gov/uscert/ncas/tips/ST04-018)
-[^2]: Signed Data goes from server to client; Client verifies.
+[^2]: Signed data goes from server to client then which the client verifies it.
