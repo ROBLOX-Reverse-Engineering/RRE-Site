@@ -4,7 +4,7 @@
 
 Join scripts are lua scripts/json used by the Roblox client (and briefly the studio) to connect to a game server.
 
-Roblox gathers the script from their online APIs.[^1] You can define the join script url using the command line argument `-j` or `--joinscripturl` which were introduced in 2016. (There were earlier forms of the joinscript argument for example `-script`.)
+Roblox gathers the script from their online APIs.[^1] You can define the join script url using the command line argument `-j` or `--joinscripturl` which were introduced in 2012. (There were earlier forms of the joinscript argument for example `-script`.)
 
 To prevent malicious code, Roblox uses [signatures](/Client Security/Signatures) to verify the authenticity of the content.
 
@@ -22,4 +22,4 @@ JSON join scripts are [JSONs](https://en.wikipedia.org/wiki/JSON) that contain e
 
 The migration to JSON was part of the major client security overhaul which was removing the Lua Compiler from the client.
 
-[^1]: The originally URL was https://www.roblox.com/Game/Join.ashx
+[^1]: The original URL was https://www.roblox.com/Game/Join.ashx
