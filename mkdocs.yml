@@ -8,6 +8,8 @@ theme:
   favicon: assets/iTunesArtwork@2xNoBG.png
   icon:
     edit: material/file-edit-outline
+    admonition:
+      bug: material/alert
   palette: 
     - scheme: slate
       primary: teal
@@ -45,7 +47,12 @@ plugins:
       exclude: 
         - hidden/*
 markdown_extensions:
+  - attr_list
   - footnotes
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

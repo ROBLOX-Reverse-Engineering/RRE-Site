@@ -20,6 +20,6 @@ In September 2014, lua join scripts were removed in favor of [JSON join scripts]
 
 JSON join scripts are [JSONs](https://en.wikipedia.org/wiki/JSON) that contain everything the client needs to connect (IPs, ports, place id, etc).
 
-The migration to JSON was part of the major client security overhaul which was removing the Lua Compiler from the client.
+The migration to JSON was part of the major client security overhaul which involved removing the Lua Compiler from the client.
 
 [^1]: The original URL was https://www.roblox.com/Game/Join.ashx
