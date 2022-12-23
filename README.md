@@ -2,7 +2,7 @@
 This is the official repository for the **Upcoming** ROBLOX Reverse-Engineering site.
 
 # How do I build this?
-This project uses material mkdocs (which runs over of python).
+This project uses material mkdocs (which runs on python).
 
 To install mkdocs-material (and it's dependencies), simply run:
 
