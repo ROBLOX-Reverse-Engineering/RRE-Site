@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Signatures are another means of security ROBLOX uses to prevent any unauthorized tampering with external requests from ROBLOX Servers.
+Signatures are another means of security Roblox uses to prevent any unauthorized tampering with external requests from Roblox Servers.
 
 Traditionally, signatures are, as the name suggests, a method to determine the actual author/sender of an article.
 
@@ -18,13 +18,14 @@ flowchart LR
 
 ## Client Signatures
 
-ROBLOX uses (and *used*) signatures for a multitude of things including but not limited to:
+Roblox uses (and *used*) signatures for a multitude of things including but not limited to:
     
 - [JoinScripts](/Client Security/JoinScripts)
 - Online CoreScripts (2010-2014)<sub><sup>[Citation needed]</sup></sub>
+- BuiltInPlugins[^3]
 
 ### Specification
-ROBLOX uses the [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorithm (1024-bits) with X509 and PKCS7 encoding.
+Roblox uses the [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorithm (1024-bits) with X509 and PKCS7 encoding.
 
 Signature wrappers have differed between the years but here are the primary forms:
 
@@ -38,7 +39,8 @@ Signature wrappers have differed between the years but here are the primary form
 
 <h3 id="see-also">See Also:</h3>
 - [Generating a public/private key](/Extras/KeyGeneration)
-- [JoinScripts](/Client Security/JoinScripts)
+- [JoinScripts](/Client Features/JoinScripts)
 
 [^1]: More Information: [https://www.cisa.gov/uscert/ncas/tips/ST04-018](https://www.cisa.gov/uscert/ncas/tips/ST04-018)
 [^2]: Signed data goes from server to client then which the client verifies it.
+[^3]: Signed BuiltInPlugins were introduced in late 2019 in the form of *.sig files
