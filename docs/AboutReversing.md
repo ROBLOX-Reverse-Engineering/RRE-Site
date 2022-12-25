@@ -17,7 +17,7 @@ However, here are a few steps we've put together which you can follow to get sta
 
 2. **Get the right tools:** You'll need a range of tools to get started with reverse engineering. Some of the most commonly used tools include disassemblers (like [IDA Pro](https://hex-rays.com/ida-pro/)[^1]), and debuggers (like [x64dbg](https://x64dbg.com/)).
 
-3. **Get a good understanding of programming languages:** Having a good understanding of programming languages such as C++ and sometimes even lua can be very beneficial when reverse engineering ROBLOX as it will help you analyze and understand the code and logic behind it and having a basic understanding of assembly will get you a long way.
+3. **Get a good understanding of programming languages:** Having a good understanding of programming languages such as C++ and sometimes even lua can be very beneficial when reverse engineering Roblox as it will help you analyze and understand the code and logic behind it and having a basic understanding of assembly will get you a long way.
 
 !!! tip "Keep in mind"
     We're always welcoming new users to come and join our discord servers whenever they feel like they need help or even just to hang out and converse with the other members.
