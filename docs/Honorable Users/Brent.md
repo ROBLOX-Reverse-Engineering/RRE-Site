@@ -11,11 +11,12 @@ Project Mercury is a multi-protocol support version of RCCService which supports
 Project Mercury is still an incomplete product and does not have any public download at the moment.
 
 ### Roblonium
-ROBLONIUM was a 2013 Roblox revival aimed to bring back the 2013 website and client.
-<div style="display: flex; flex-flow: column wrap;"> <p><a href="https://media.discordapp.net/attachments/543597252103634974/566513908077035521/unknown.png"><img alt="ROBLONIUM Website" src="https://media.discordapp.net/attachments/543597252103634974/566513908077035521/unknown.png" width="420" align="left" /></a>The ROBLONIUM website dating from 04/13/2019.</p>
+ROBLONIUM was a project which aimed to replicate the 2013 ROBLOX website and game client.
+It was originally founded on the 18th of December, 2018 by XyDarkSonic and ItsJustAPlayer. Brent joined the project in early 2019 as a web developer. He later patched together the game client that would be used for the project.
+<div style="display: flex; flex-flow: column wrap;"> <p><a href="https://media.discordapp.net/attachments/721907123549765644/1056462249612554340/image.png"><img alt="ROBLONIUM Website" src="https://media.discordapp.net/attachments/721907123549765644/1056462249612554340/image.png" width="300" align="left" /></a>The SiteTest1 branch of the ROBLONIUM website dating from December 25th, 2022.</p>
 </div>
-ROBLONIUM was created in March of 2019 and used PHP as it's website language.
-It's development eventually came to a halt during the end of 2020 due to a lack of interest and it's codebase being very dated.
+
+Its development eventually came to a hault during the end of 2020 as he decided to switch focus to a different web-project that used ASP.NET WebForms.
 
 ### web-platform
 **TODO**
