@@ -14,4 +14,4 @@ It was initially started by [Brent](/Honorable%20Users/Brent/) on January of 202
 
 ## How do I join the discord?
 
-The discord invite can be found [here](/discord).
+The discord invite can be found [here](https://discord.gg/uPjEgm9Zf2).
